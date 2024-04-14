@@ -50,7 +50,6 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -90,7 +89,6 @@ DATABASES = {
     }
 }
 
-# DATABASES["default"] = dj_database_url.parse("postgres://qrmenu_db_render_user:mV2apE72DrKG8kYoP2MIkbjNVUMheXZC@dpg-cocoa3a1hbls73cuupo0-a/qrmenu_db_render")
 
 
 # Password validation
@@ -142,6 +140,5 @@ REST_FRAMEWORK = {
 
 STRIPE_API_SECRET_KEY = "sk_test_51P4gpTKo1UhXJ1gUOxRYXoTvCYNW1PBv27CuIoeyUQoOKw6GVk4YMX84ee0GrPhpVU9Jm1o0F3n10zyqzFaS2fqX00waa2TcVO"
 
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
