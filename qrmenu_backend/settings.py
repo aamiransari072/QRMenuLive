@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-llgjw@(ulm@%(=!qw$c=%uo1kj9a76o+rdy9vi**dh$7qmh8bm
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://qrmenu-env.eba-z3wtpfci.us-east-1.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['qrmenu-env.eba-z3wtpfci.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
